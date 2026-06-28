@@ -2,7 +2,8 @@
 
 docker compose up --build 
 
-##Запуск через терминал: 
+##Запуск через терминал : 
+
 go run main.go -storage memory - на локальном хранилище машины
 ---
 go run main.go -storage postgres -connect="postgres://user:pass@localhost:5432/urlshorter?sslmode=disable" - создается база данных, если не создана и вся дальнейшая работа будет происходить в ней
